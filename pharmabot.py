@@ -4,10 +4,12 @@ from googlesearch import search
 def greet():
     greetings = ["Hi buddy! I am pharmabot.I can help you in knowing details about any medicine.May I know your name?","Wonderful.It is so nice to be in touch with you.I am a pharmabot.May I know your name?"]
     print(random.choice(greetings))
+    return 0
 def welcome(name):
     welcome_message = ["Nice to meet you","Lets have some good time together"]
     print()
     print("{0} {1}".format(random.choice(welcome_message),name))
+    return 0
 def menu():
     print()
     print("1.Get info about medicine")
@@ -25,6 +27,7 @@ def details_medicine():
     query=query+ "medicine"
     for j in search(query,tld="com",num=1,stop=1,pause=0):
         webbrowser.open(j)
+    return 0
 def pharmabot():
     greet()
     name=input("Your name: ")
@@ -41,6 +44,7 @@ def pharmabot():
     if option==2:
         print()
         print("Thanks for interacting with me,bye...")
+    return 0 
 pharmabot()
 
 
