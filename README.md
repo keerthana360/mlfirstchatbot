@@ -38,5 +38,5 @@ Name of the bot is **PharmaBot**.It helps user **to know the details(uses,side e
 ## Youtube link:
 [![pharma chatbot](https://img.youtube.com/vi/TwhDaEFspNo/0.jpg)](https://www.youtube.com/watch?v=TwhDaEFspNo)
 ## Resources:
-[Beautifulsoup Link](https://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python)
-[pypi Link](https://pypi.org/project/google/)
+![Beautifulsoup Link](https://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python)
+![pypi Link](https://pypi.org/project/google/)
